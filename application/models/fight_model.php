@@ -19,7 +19,7 @@ class Fight_model extends Model {
 		$atk_opt = array();
 		foreach($tree[1] as $t)
 		{
-			if(isset($user['tree'][$t['id']])).... set slvl
+		//	if(isset($user['tree'][$t['id']])).... set slvl
 		}
 		$fight = array();
 		for ($x=0; $x <10; $x++)
