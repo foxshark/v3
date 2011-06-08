@@ -14,8 +14,8 @@ class Fight_model extends Model {
 
 	function makeAttackSet($usr, $tree)
 	{
-		pre_print_r($usr);
-		pre_print_r($tree[1]);
+		//pre_print_r($usr);
+		//pre_print_r($tree[1]);
 		$atk_opt = array();
 		foreach($tree[1] as $t)
 		{
@@ -27,7 +27,7 @@ class Fight_model extends Model {
 			$r =  rand(1,10);
 			//$fight[] =
 		}
-		 die;
+		// die;
 		return $fight;	
 	}
 		
